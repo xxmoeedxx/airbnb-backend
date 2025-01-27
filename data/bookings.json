@@ -1,0 +1,42 @@
+[
+  {
+    "listingId": 2,
+    "checkInDate": "2024-11-10",
+    "checkOutDate": "2024-11-11",
+    "guests": 1,
+    "totalPrice": 90,
+    "listingTitle": "Modern Apartment in City Center"
+  },
+  {
+    "listingId": 1,
+    "checkInDate": "2024-11-16",
+    "checkOutDate": "2024-11-23",
+    "guests": 1,
+    "totalPrice": 840,
+    "listingTitle": "Cozy Beachfront House"
+  },
+  {
+    "listingId": 1,
+    "checkInDate": "2024-11-16",
+    "checkOutDate": "2024-11-17",
+    "guests": 4,
+    "totalPrice": 480,
+    "listingTitle": "Cozy Beachfront House"
+  },
+  {
+    "listingId": 6,
+    "checkInDate": "2024-11-17",
+    "checkOutDate": "2024-11-19",
+    "guests": 2,
+    "totalPrice": 520,
+    "listingTitle": "Charming Cottage by the Lake"
+  },
+  {
+    "listingId": 6,
+    "checkInDate": "2024-11-16",
+    "checkOutDate": "2024-11-26",
+    "guests": 1,
+    "totalPrice": 1300,
+    "listingTitle": "Charming Cottage by the Lake"
+  }
+]
