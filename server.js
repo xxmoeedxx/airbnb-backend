@@ -14,9 +14,13 @@ const path = require('path');
 
 const app = express();
 const port = 5000;
+// Enable CORS for all routes
+app.use(cors({
+  origin: 'https://mock-airbnb-project-cyan.vercel.app',  // Your frontend URL (Vercel)
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true,  // if you're using cookies for session management
+}));
 
-
-app.use(cors());
 app.use(express.json());
 // Routes
 app.use('/api/listings', listingsRouter);
